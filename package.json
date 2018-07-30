@@ -10,17 +10,18 @@
   },
   "author": "",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "devDependencies": {
-    "@babel/cli": "7.0.0-beta.44",
-    "@babel/core": "^7.0.0-beta.44",
+    "@babel/cli": "7.0.0-beta.55",
+    "@babel/core": "^7.0.0-beta.55",
     "@babel/helper-module-imports": "^7.0.0-beta.44",
     "@babel/plugin-syntax-jsx": "^7.0.0-beta.44",
-    "@babel/preset-env": "7.0.0-beta.44",
+    "@babel/preset-env": "7.0.0-beta.55",
     "babel-core": "^7.0.0-0",
-    "jest": "^22.4.3",
-    "regenerator-runtime": "^0.11.1"
-  },
-  "dependencies": {
-    "babel-jest": "^22.4.3"
+    "babel-jest": "^23.4.2",
+    "jest": "23.4.2",
+    "regenerator-runtime": "^0.12.0"
   }
 }
